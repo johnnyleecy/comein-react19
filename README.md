@@ -1,4 +1,5 @@
 ## Update history
+    update: 2026.6.30 (Add a button on home page)
     update: 2026.3.26 (About page add policy after google map)
     update: 2026.3.12 (Add page discount.jsx, image discount.png, Upate Router App.js)
     update: 2025.11.10 (only title & description with natural writing)

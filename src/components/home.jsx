@@ -23,6 +23,16 @@ export const Home = () => {
                 <p className="px-10 sm:px-20 lg:px-30">
                 我們專業回收各大品牌電子產品，包括 Apple、Asus、DELL、Google、Lenovo、MSI、Microsoft、RAZER、Samsung、SONY、acer、Panasonic 等等，無論是手機、平板、筆電、電腦主機，還是其他智能裝置，我們都以 <span className="text-2xl font-bold text-blue-700">市場最高價</span> 現金收購！
                 </p>
+                <div className="my-5">
+                  <Link to="https://wa.me/69291767"  >
+                    <button  
+                      id="homebutton"
+                      type="button" 
+                      className="text-[18px] rounded-2xl text-heading bg-gradient-to-r from-teal-200 to-lime-200 hover:bg-gradient-to-l hover:from-teal-200 hover:to-lime-200 focus:ring-4 focus:outline-none focus:ring-lime-200 dark:focus:ring-teal-700 font-medium rounded-base text-sm px-4 py-2.5 text-center leading-5">
+                      2026年7月最新回收價 即時按WhatsApp 查詢
+                      </button>
+                  </Link>
+                </div>
                 <p className="px-10 sm:px-20 lg:px-30">
                     <br />✅ 即時估價 ── 提供型號及規格，立即報價
                     <br />✅ 專業檢測 ── 快速驗機，價格透明
