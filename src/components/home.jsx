@@ -4,10 +4,14 @@ import { Nav } from "./items/Nav";
 import { GoogleMap } from "./items/GoogleMap";
 import { Icon } from "./items/icon";
 import banner from '../components/image/banner.png';
-import store_1 from '../components/image/comein_store.png';
-import store_2 from '../components/image/comein_store_2.png';
+import store_1 from '../components/image/comein_store.jpeg';
+import store_2 from '../components/image/comein_store_2.jpeg';
 
 export const Home = () => {
+  const now = new Date();
+  const year = now.getFullYear();
+  const month = now.getMonth() + 1;
+
   return (
     <>  
     <title>Comein |香港專業高價回收電子產品 | 回收Apple、Lenovo、Samsung 等大量品牌</title>
@@ -29,7 +33,7 @@ export const Home = () => {
                       id="homebutton"
                       type="button" 
                       className="text-[18px] rounded-2xl text-heading bg-gradient-to-r from-teal-200 to-lime-200 hover:bg-gradient-to-l hover:from-teal-200 hover:to-lime-200 focus:ring-4 focus:outline-none focus:ring-lime-200 dark:focus:ring-teal-700 font-medium rounded-base text-sm px-4 py-2.5 text-center leading-5">
-                      2026年7月最新回收價 即時按WhatsApp 查詢
+                      {year}年{month}月最新回收價 即時按WhatsApp 查詢
                       </button>
                   </Link>
                 </div>
